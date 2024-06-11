@@ -1,12 +1,3 @@
-// Initialize Firebase with your config
-firebase.initializeApp({
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-});
-
-const db = firebase.firestore();
-
 // Function to add a task
 function addTask() {
     const taskInput = document.getElementById("task-input");

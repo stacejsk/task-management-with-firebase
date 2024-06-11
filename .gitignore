@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Firebase configuration files
+firebase-debug.log
+.firebaserc
+firebase.json
+remoteconfig.template.json
+package.json
+firestore.indexes.json
+database.rules.json
+Y/index.html
+firestore.rules
+functions/.eslintrc.js
+functions/.gitignore
+functions/index.js
+
+# Local environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Directory for local Firebase emulators
+firebase/
+
+
+# Build output
+dist/
+build/
+
+# Ignore package-lock.json if you're using Yarn
+# Comment out the next line if you use npm
+package-lock.json

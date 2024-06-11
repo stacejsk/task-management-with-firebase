@@ -1,0 +1,161 @@
+/* Create a CSS file (`styles.css`) to style your task manager: */
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+header {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.loginpage-container{
+    height: 100vh;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('./images/to-do.jpg');
+    background-size: cover;
+   overflow:auto;
+}
+
+.loginpage-container h1 {
+    text-align:center;
+    color:#fff;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: center;
+}
+.welcome-section{
+    margin:30px;
+    font-family:cursive;
+
+}
+
+.welcome-section p{
+    font-size: 20px;
+    color:#fff; 
+
+}
+.welcome-section h2{
+    color:#15d61c; 
+}
+
+
+.form-container {
+    height:450px;
+    margin:20px;
+    background-color: #fff;
+    width:600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.form-container h2{
+    margin-bottom:40px;
+    text-align:center;
+}
+.form-container p{
+    font-size:14px;
+}
+
+input {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    display: block ;
+    padding: 10px;
+    border-radius: 5px;
+    min-width:450px;
+}
+button[type="submit"] {
+
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    padding: 10px 15px; /* Top and bottom padding 15px, left and right padding 32px */
+    text-align: center; /* Centered text */
+    font-size: 16px; /* Large, readable text */
+    margin-top:20px; /* Margins around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    
+}
+button[type="button"]{
+    outline: none; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.toggle-btn {
+        background: none;
+        border: none;
+        color: #007BFF;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        transition: color 0.3s;
+}
+.toggle-btn:hover {
+    color: #0056b3;
+}
+        
+.task-form {
+margin-top: 20px;
+}
+
+.task-form input[type="text"] {
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-right: 10px;
+ }
+
+.task-form button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.task-form button:hover {
+background-color: #45a049;
+}
+
+.task-item {
+list-style-type: none;
+margin-top: 10px;
+}
+
+.task-item span {
+margin-right: 10px;
+}
+
+.task-item button {
+background-color: #f44336;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 50%;
+margin-left: 10px;
+}
+
+.task-item button:hover {
+background-color: #cc0000;
+}

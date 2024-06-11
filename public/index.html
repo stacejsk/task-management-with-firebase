@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loginpage-container">
+        <h1>Task Management App</h1>
+        <div class="welcome">
+            <div class="welcome-section">
+                <h2> Welcome to Task.Co </h2>
+                <p>Stay on top of your tasks by tracking them within your 24 hours </p>
+            </div>
+            <div id="formContainer"  class="form-container">
+                <form id="login-form" >
+                    <h2>Log In</h2>
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                    <p>Don't have an account? <button class="toggle-btn" onclick="toggleForms(event)">Sign Up</button></p>
+                
+                </form>
+                <form id="register-form" class= "form-container" style="display:none;">
+                    <h2>Register</h2>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Register</button>
+                    <p>Already registered?  <button class="toggle-btn" onclick="toggleForms(event)">Login here</button></p>
+                </form>
+            </div>
+        </div>
+</div>
+    <script defer src="/__/firebase/10.12.2/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/10.12.2/firebase-firestore-compat.js"></script>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
+
